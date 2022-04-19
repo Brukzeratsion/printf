@@ -20,6 +20,7 @@ int (*get_print(char s))(va_list, flags_t *)
 		{'s', print_string},
 		{'c', print_char},
 		{'i', print_int},
+		{'b', print_binary},
 		{'d', print_int}
 		};
 	int flags = 14;
